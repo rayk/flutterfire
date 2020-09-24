@@ -13,7 +13,7 @@ import 'firebase_auth_web_confirmation_result.dart';
 import 'utils.dart';
 
 /// The format of an incoming metadata string timestamp from the firebase-dart library
-final DateFormat _dateFormat = DateFormat('EEE, d MMM yyyy HH:mm:ss', 'en_US');
+final DateFormat _dateFormat = DateFormat('EEE, dd MMM yyyy HH:mm:ss ZZZ');
 
 /// Web delegate implementation of [UserPlatform].
 class UserWeb extends UserPlatform {
